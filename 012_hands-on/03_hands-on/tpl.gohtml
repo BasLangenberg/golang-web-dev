@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+<h1>Hotels in America for RedNecks</h1>
+
+<h2>Northern</h2>
+{{range .Northern}}
+{{.Name}} - {{.Address}} - {{.City}} - {{.Zip}}
+{{end}}
+<h2>MidWest</h2>
+{{range .MidWest}}
+{{.Name}} - {{.Address}} - {{.City}} - {{.Zip}}
+{{end}}
+<h2>Southern</h2>
+{{range .Southern}}
+{{.Name}} - {{.Address}} - {{.City}} - {{.Zip}}
+{{end}}
+
+</body>
+</html>
